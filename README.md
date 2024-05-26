@@ -41,6 +41,8 @@ python gradio_makeup_transfer.py
 
 ## How to run your own data
 
+Just upload your own images in the above gradio screen.
+
 ## Citation
 
 If this work is helpful for your research, please consider citing the following BibTeX entry.
