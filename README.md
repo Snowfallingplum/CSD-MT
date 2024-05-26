@@ -20,9 +20,13 @@ conda activate CSDMT
 ```
 
 ## Pretrained Models
+Pre-training models can be downloaded here [Baidu cloud](https://pan.baidu.com/s/1C7K4xk5W0X65yUQh41AmfQ),password: 1d3e.
 
-The pre trained model has been provided in folder `CSD_MT/weights`. 
+Please put CSD_MT.pth in CSD_MT/weights/CSD_MT.pth
 
+Put lms.dat in faceutils/dlibutils/lms.dat
+
+Put 79999_iter.pth in facultyils/face_parsing/res/cp/79999 _iter.pth
 
 
 ## Run the examples
@@ -52,7 +56,7 @@ If this work is helpful for your research, please consider citing the following 
 
 ## Acknowledgement
 
-Some of the codes are build upon [PSGAN](https://github.com/wtjiang98/PSGAN) and [aster.Pytorch](https://github.com/ayumiymk/aster.pytorch).
+Some of the codes are build upon [PSGAN](https://github.com/wtjiang98/PSGAN), [Face Parsing](https://github.com/zllrunning/face-parsing.PyTorch) and [aster.Pytorch](https://github.com/ayumiymk/aster.pytorch).
 
 ## License
 
