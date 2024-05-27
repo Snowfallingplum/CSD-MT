@@ -51,7 +51,7 @@ If this work is helpful for your research, please consider citing the following 
 @article{sun2024content,
   title={Content-Style Decoupling for Unsupervised Makeup Transfer without Generating Pseudo Ground Truth},
   author={Sun, Zhaoyang and Xiong, Shengwu and Chen, Yaxiong and Rong, Yi}
-  journal={arXiv preprint arXiv:},
+  journal={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
   year={2024}
 }
 ```
