@@ -2,6 +2,10 @@
 
 Zhaoyang Sun, Shegnwu Xiong, Yaxiong Chen, Yi Rong
 
+## Paper link
+
+https://arxiv.org/abs/2405.17240
+
 
 ## Framework
 
@@ -20,7 +24,7 @@ conda activate CSDMT
 ```
 
 ## Pretrained Models
-Pre-training models can be downloaded here [Baidu cloud](https://pan.baidu.com/s/1C7K4xk5W0X65yUQh41AmfQ),password: 1d3e.
+Pre-training models can be downloaded here [Baidu Drive](https://pan.baidu.com/s/1C7K4xk5W0X65yUQh41AmfQ),password: 1d3e and [Google Drive](https://drive.google.com/drive/folders/1pvSgkpsb7k6Ph1_oCmFkMQZPgL7PaTO0?usp=drive_link)
 
 Please put CSD_MT.pth in CSD_MT/weights/CSD_MT.pth
 
