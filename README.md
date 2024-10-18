@@ -6,6 +6,9 @@ Zhaoyang Sun, Shegnwu Xiong, Yaxiong Chen, Yi Rong
 
 https://arxiv.org/abs/2405.17240
 
+## News 
+
++ Our recent paper “SHMT: Self-supervised Hierarchical Makeup Transfer via Latent Diffusion Models” has been accepted by NeurIPS 2024 and will be released later. The code has already been made public.
 
 ## Framework
 
