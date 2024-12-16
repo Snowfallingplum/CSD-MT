@@ -5,7 +5,7 @@ This is the official pytorch code for **"Content-Style Decoupling for Unsupervis
 **The training code, testing code, and pre-trained model have all been open sourced**
 
 ## Author
-**Zhaoyang Sun; Yaxiong Chen; Shengwu Xiong**
+**Zhaoyang Sun;  Shengwu Xiong; Yaxiong Chen; Yi Rong**
 
 
 ## News
