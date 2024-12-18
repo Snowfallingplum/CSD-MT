@@ -10,7 +10,7 @@ This is the official pytorch code for **"Content-Style Decoupling for Unsupervis
 
 ## News
 
-+ Our paper SHMT was accepted by NeurIPS2024. 
++ Our paper SHMT was accepted by NeurIPS2024. [Paper link](https://arxiv.org/abs/2412.11058) and [code link](https://github.com/Snowfallingplum/SHMT).
 
 + Our paper SSAT++ was accepted by TNNLS2023. [Paper link](https://ieeexplore.ieee.org/document/10328655) and [code link](https://github.com/Snowfallingplum/SSAT_plus).
 
