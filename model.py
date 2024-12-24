@@ -348,20 +348,24 @@ class CSDMT(nn.Module):
         rec_corr1 = self.normalize_image(rec_corr1).detach()
         rec_img = self.normalize_image(self.rec_output_data['transfer_img']).detach()
         makeup_color_change4_img = self.normalize_image(self.makeup_color_change4_img).detach()
+        # print(non_makeup_color_img[0:1, ::].shape)
+        # print(makeup_color_img[0:1, ::].shape)
+        # print(transfer_content_img[0:1, ::].shape)
+        # print(transfer_makeup_img[0:1, ::].shape)
 
         row1 = torch.cat(
             (non_makeup_color_img[0:1, ::], makeup_color_img[0:1, ::],
-             transfer_content_img[0:1, ::],transfer_makeup_img[0:1, ::],
+             transfer_content_img[0:1, ::].repeat(1,3,1,1),transfer_makeup_img[0:1, ::],
              transfer_corr1[0:1, ::], transfer_img[0:1, ::],makeup_color_change2_img[0:1, ::]), 3)
 
         row2 = torch.cat(
             (makeup_color_img[0:1, ::], transfer_img[0:1, ::],
-             cycle_content_img[0:1, ::], cycle_makeup_img[0:1, ::],
+             cycle_content_img[0:1, ::].repeat(1,3,1,1), cycle_makeup_img[0:1, ::],
              cycle_corr1[0:1, ::],cycle_img[0:1, ::],makeup_color_change3_img[0:1, ::]), 3)
 
         row3 = torch.cat(
             (makeup_color_change_img[0:1, ::], makeup_color_change_warp_img[0:1, ::],
-             rec_content_img[0:1, ::], rec_makeup_img[0:1, ::],
+             rec_content_img[0:1, ::].repeat(1,3,1,1), rec_makeup_img[0:1, ::],
              rec_corr1[0:1, ::],rec_img[0:1, ::],makeup_color_change4_img[0:1, ::]), 3)
         return torch.cat((row1, row2,row3), 2)
 

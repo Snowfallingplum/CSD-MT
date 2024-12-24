@@ -242,8 +242,8 @@ class MakeupDataset(data.Dataset):
 
             # 加载parse
             non_makeup_parse = self.load_parse(
-                self.non_makeup_path[non_makeup_index].replace('images', 'seg1')[:-4] + '.png')
-            makeup_parse = self.load_parse(self.makeup_path[makeup_index].replace('images', 'seg1')[:-4] + '.png')
+                self.non_makeup_path[non_makeup_index].replace('images', 'seg1')[:-4] + '.png',non_makeup_angle)
+            makeup_parse = self.load_parse(self.makeup_path[makeup_index].replace('images', 'seg1')[:-4] + '.png',makeup_angle)
 
             # 数据增强
             non_makeup_color_img, non_makeup_gray_img, non_makeup_parse = self.preprocessing(non_makeup_color_img,
