@@ -49,6 +49,7 @@ conda activate CSDMT
 
 ## Training code
 We have set the default hyperparameters in the options.py file, please modify them yourself if necessary.
+### Tip: If you find that the model excessively transfers the shadows of the reference image or generates disharmonious shadows, you can increase “weight_identity” in options.py to 0.2-0.5 appropriately.
 To train the model, please run the following command directly
 ```
 python train.py
